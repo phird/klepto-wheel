@@ -1,19 +1,15 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LuckyWheelComponent } from './Lucky-wheel.component';
+import { LuckyWheelComponent } from './lucky-wheel.component';
 
-describe('NgxWheelComponent', () => {
+describe('LuckyWheelComponent', () => {
   let component: LuckyWheelComponent;
   let fixture: ComponentFixture<LuckyWheelComponent>;
 
-  beforeEach(async(() => {
-    TestBed.configureTestingModule({
-      declarations: [ LuckyWheelComponent ]
-    })
-    .compileComponents();
-  }));
-
   beforeEach(() => {
+    TestBed.configureTestingModule({
+      declarations: [LuckyWheelComponent]
+    });
     fixture = TestBed.createComponent(LuckyWheelComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

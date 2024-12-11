@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { LuckywheelService } from './Lucky-wheel.service';
+import { LuckyWheelService } from './lucky-wheel.service';
 
-describe('NgxWheelIvyService', () => {
-  let service: LuckywheelService;
+describe('LuckyWheelService', () => {
+  let service: LuckyWheelService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(LuckywheelService);
+    service = TestBed.inject(LuckyWheelService);
   });
 
   it('should be created', () => {

@@ -1,12 +1,16 @@
 import { NgModule } from '@angular/core';
-import { LuckyWheelComponent } from './Lucky-wheel.component';
+import { LuckyWheelComponent } from './lucky-wheel.component';
 
 
 
 @NgModule({
-  declarations: [LuckyWheelComponent],
+  declarations: [
+    LuckyWheelComponent
+  ],
   imports: [
   ],
-  exports: [LuckyWheelComponent]
+  exports: [
+    LuckyWheelComponent
+  ]
 })
-export class NgxWheelModule { }
+export class LuckyWheelModule { }
